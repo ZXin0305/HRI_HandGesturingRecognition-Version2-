@@ -1471,7 +1471,7 @@ def run_demo_with_hand(model, refine_model, frame_provider, cfg, device, hand_mo
                                 cv2.putText(img,"lhg: {}".format(human.left_hg),(int(refine_pred_2d[i][1][0]-100), 
                                                             int(refine_pred_2d[i][1][1]-50)),
                                                             cv2.ACCESS_MASK,1,color,2)
-                                cv2.putText(img,"lhg: {}".format(human.right_hg),(int(refine_pred_2d[i][1][0]+30), 
+                                cv2.putText(img,"rhg: {}".format(human.right_hg),(int(refine_pred_2d[i][1][0]+30), 
                                                             int(refine_pred_2d[i][1][1]-50)),
                                                             cv2.ACCESS_MASK,1,color,2)
                             
